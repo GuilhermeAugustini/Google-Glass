@@ -27,7 +27,7 @@ body {
 div#interface {
     width: 900px;
     background-color: #ffffff;
-    margin: -20px auto 0px auto;
+    margin: auto auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px 10px 10px 10px;
 
@@ -54,8 +54,11 @@ header#cabecalho img#icone {
 }
 
 header#cabecalho {
-    border-bottom: 1px #606060 solid;
+    width: 100%;
     height: 150px;
+    border-bottom: 1px #606060 solid;
+    float: left;
+    
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
 
@@ -63,8 +66,8 @@ header#cabecalho h1 {
     font-family: "FonteLogo", sans-serif;
     font-size: 30px;
     color: #606060;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.6)
-    padding: 0px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 10px;
     margin-bottom: 0px;
 }
 
@@ -105,7 +108,7 @@ figure.foto-legenda:hover figcaption {
 }
 
 nav#Menu {
-    display: block;
+    display: block;   
 }
 
 
@@ -113,7 +116,7 @@ nav#Menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
+    top: 20px;
     left: 500px;
 }
 
@@ -123,6 +126,7 @@ nav#Menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    
 }
 
 nav#Menu li:hover {
